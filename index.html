@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body bgcolor = "lightblue">
+    <center>
+        <h1>Student Registration Form</h1>
+    </center>
+
+    <br />
+    <form>
+        <table align = "center" cellpadding = "10">
+            <!-- Roll Number -->
+             <tr>
+                <td>Roll no. :</td>
+                <td>
+                    <input type = "text" name = "rollno" size = "50"
+                </td>
+             </tr>
+
+             <!-- Student Name -->
+              <tr>
+                <td>Student name :</td>
+                <td>
+                    <input type = "text" name = "fname" size = "50" placeholder = "First Name">
+                    -
+                    <input type = "text" name = "lname" size = "50" placeholder = "Last Name">
+                </td>
+              </tr>
+
+              <!-- Father's Name -->
+               <tr>
+                    <td>Father's name :</td>
+                    <td>
+                        <input type = "text" name = "fathername" size = "50" placeholder = "Father's Name">
+                    </td>
+                </tr>
+
+                <!-- Date of Birth -->
+                 <tr>
+                    <td>Date of birth :</td>
+                    <td>
+                        <input type = "text" size = "5" palceholder = "Day"> -
+                        <input type = "text" size = "5" palceholder = "Month"> -
+                        <input type = "text" size = "8" palceholder = "Year">
+                        (DD-MM-YYYY)
+                    </td>
+                 </tr>
+
+                 <!-- Mobile Number -->
+                  <tr>
+                    <td>Mobile no. :</td>
+                    <td>
+                        <input type = "text"  value = "+91" name = "mobileno" size = "3"> -
+                        <input type = "text" name = "mobileno" size = "40">
+                    </td>
+                  </tr>
+
+                  <!-- E-Mail -->
+                   <tr>
+                    <td>Email id :</td>
+                    <td>
+                        <input type = "text" size = "50" name = "email">
+                    </td>
+                   </tr>
+
+                   <!-- Password -->
+                    <tr>
+                        <td>Password :</td>
+                        <td>
+                            <input type = "password" size = "50" name = "password">
+                        </td>
+                    </tr>
+
+                    <!-- Gender -->
+                     <tr>
+                        <td>Gender :</td>
+                        <td>
+                            <input type = "radio" name = "gender"> Male
+                            <input type = "radio" name = "gender"> Female
+                        </td>
+                     </tr>
+
+                     <!-- Department -->
+                      <tr>
+                        <td>Department :</td>
+                        <td>
+                            <input type = "checkbox" name = "dept"> CSE
+                            <input type = "checkbox" name = "dept"> ECE
+                            <input type = "checkbox" name = "dept"> ME
+                            <input type = "checkbox" name = "dept"> CE
+                        </td>
+                      </tr>
+
+                      <!-- Course -->
+                       <tr>
+                        <td>Course :</td>
+                        <td>
+                            <select>
+                                <option>--------------Select Current Course-------------</option>
+                                <option>B.Tech</option>
+                                <option>BCA</option>
+                                <option>MCA</option>
+                                <option>M.Tech</option>
+                                <option>MBA</option>
+                            </select>
+                        </td>
+                       </tr>
+
+                       <!-- Student Photo -->
+                        <tr>
+                            <td>Student photo :</td>
+                            <td>
+                                <input type = "file" name = "photo">
+                            </td>
+                        </tr>
+
+                        <!-- City -->
+                         <tr>
+                            <td>City :</td>
+                            <td>
+                                <input type = "text" name = "city" size = "50">
+                            </td>
+                         </tr>
+
+                         <!-- Address -->
+                          <tr>
+                            <td>Address :</td>
+                            <td>
+                                <textarea rows = "5" cols = "52" name = "address"></textarea>
+                            </td>
+                        </tr>
+
+                        <!-- Submit Button -->
+                         <tr>
+                            <td colspan = "2" align = "center">
+                                <input type = "submit" value = "Register">
+                            </td>
+                         </tr>
+        </table>
+    </form>
+</body>
+</html>
